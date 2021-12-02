@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+}
+
+header{
+    height: 70px;
+    box-shadow: 0px -20px 20px 9px black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#primeiro-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#title-lovt{
+    font: Ropa Sans;
+    font-size: 30px;
+    color: #777777;
+}
+#title-love{
+    padding-top: 5px;
+}
+.segundo-title{
+    margin: 0px;
+    font: Ropa Sans;
+    font-size: 10px;
+    color: #AAAAAA;
+}
+#segundo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: Ropa Sans;
+    font-size: 20px;
+    color: #777777;
+    width: 300px;
+}
+#segundo-header span {
+    cursor: pointer;
+}
+#img-vector{
+    margin-top: 30px;
+    display: none;
+    width: 30px;
+}
+main{
+   max-width: 1200px;
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+#img-banner{
+    width: 100%;
+}
+.img-div{
+    width: 100%;
+}
+.card{
+    width: 45%;
+    background-color: #EEEEEE;
+}
+
+.card-content{
+    padding: 20px;
+}
+.card-title{
+    font-size: 50px;
+    margin: 0px;
+}
+
+#segunda-secao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+.card-title-containner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-badge{
+    font-size: 34px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 35px;
+    color: white;
+}
+.green-badge{
+    background-color: #51D275;
+}
+.orange-badge{
+        background-color:#DC9730;
+}
+#terceira-secao {
+    margin-top: 65px;
+    font-size: 40px;
+    color: #888888;
+    text-align: center;
+}
+#terceira-secao div {
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 15px;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+#terceira-secao div span{
+    text-shadow: 1px 1px 2px black;
+}
+#industrial {
+    background-image: url('../img/industrial.jfif');
+}
+#modern {
+    background-image: url('../img/modern.jfif');
+}
+#classic {
+    background-image: url('../img/classic.jfif');
+}
+footer {
+    background-color: #333333;
+    width: 100%;
+    height: 100%;
+    margin-top: 65px;
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#div-1-rodape {
+    margin: 40px;
+    background-image: url('../img/mapa.png');
+    border-radius: 19px;
+    width: 252px;
+    height: 163px;
+}
+
+#text-1-rodape {
+    font: Ropa Sans;
+    font-size: 15px;
+    color: #FFFFFF;
+   
+}
+  
+#div-2-rodape {
+    font: Ropa Sans;
+    font-size: 12px;
+    color: #FFFFFF; 
+    margin-right: 45px;
+    width: 175px;
+    height: 95px;
+}
+@media(max-width: 800px) {
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #img-vector {
+        display: unset;
+    } 
+    #segundo-header {
+        display: none;
+    }
+}
+@media(max-width: 640px) {
+    .card {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #segunda-secao {
+        flex-direction: column;
+    }
+    #rodape {
+        flex-direction: column;
+    }
+    #div-1-rodape {
+        width: 85%;
+       
+    }
+   #div-2-rodape {
+       width: 50%;
+       text-align: center;
+   }
+   footer {
+      padding-bottom: 45px;
+   }
+}
